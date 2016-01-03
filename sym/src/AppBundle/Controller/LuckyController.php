@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 class LuckyController{
-    public function indexAction(){
+    public function numberAction(){
         $number = rand(0, 100);
 
         /*return new Response(
